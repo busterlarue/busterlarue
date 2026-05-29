@@ -1,0 +1,17 @@
+# Talk Transcript Analyzer - Dependencies
+
+# Core (no external dependencies required for basic functionality)
+# Python 3.10+ is required for type hints
+
+# Optional: Enhanced markdown conversion for emails
+markdown>=3.4
+
+# Optional: SendGrid email integration
+sendgrid>=6.9
+
+# Optional: Notion integration
+notion-client>=2.0
+
+# Development
+pytest>=7.0
+pytest-cov>=4.0
